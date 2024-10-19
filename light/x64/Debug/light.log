@@ -1,0 +1,8 @@
+﻿  Init.cpp
+C:\Users\jekabs.vidrusks\source\repos\light\light\Init.cpp(7,5): error C2562: 'Start': 'void' function returning a value
+      C:\Users\jekabs.vidrusks\source\repos\light\light\Init.cpp(4,6):
+      see declaration of 'Start'
+  
+  Source.cpp
+C:\Users\jekabs.vidrusks\source\repos\light\light\Source.cpp(1,10): error C1083: Cannot open include file: 'SFML/Graphics.hpp': No such file or directory
+  Generating Code...

@@ -1,0 +1,24 @@
+﻿  BruteNGravitySim.cpp
+  Main.cpp
+C:\Users\jekabs.vidrusks\source\repos\light\light\BruteNGravitySim.cpp(18,18): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\jekabs.vidrusks\source\repos\light\light\BruteNGravitySim.cpp(19,18): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\jekabs.vidrusks\source\repos\light\light\BruteNGravitySim.cpp(31,61): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\jekabs.vidrusks\source\repos\light\light\BruteNGravitySim.cpp(31,61): warning C4244:         with
+C:\Users\jekabs.vidrusks\source\repos\light\light\BruteNGravitySim.cpp(31,61): warning C4244:         [
+C:\Users\jekabs.vidrusks\source\repos\light\light\BruteNGravitySim.cpp(31,61): warning C4244:             T=int
+C:\Users\jekabs.vidrusks\source\repos\light\light\BruteNGravitySim.cpp(31,61): warning C4244:         ]
+C:\Users\jekabs.vidrusks\source\repos\light\light\BruteNGravitySim.cpp(31,61): warning C4244:         and
+C:\Users\jekabs.vidrusks\source\repos\light\light\BruteNGravitySim.cpp(31,61): warning C4244:         [
+C:\Users\jekabs.vidrusks\source\repos\light\light\BruteNGravitySim.cpp(31,61): warning C4244:             T=float
+C:\Users\jekabs.vidrusks\source\repos\light\light\BruteNGravitySim.cpp(31,61): warning C4244:         ]
+C:\Users\jekabs.vidrusks\source\repos\light\light\BruteNGravitySim.cpp(31,37): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+C:\Users\jekabs.vidrusks\source\repos\light\light\BruteNGravitySim.cpp(31,37): warning C4244:         with
+C:\Users\jekabs.vidrusks\source\repos\light\light\BruteNGravitySim.cpp(31,37): warning C4244:         [
+C:\Users\jekabs.vidrusks\source\repos\light\light\BruteNGravitySim.cpp(31,37): warning C4244:             T=int
+C:\Users\jekabs.vidrusks\source\repos\light\light\BruteNGravitySim.cpp(31,37): warning C4244:         ]
+C:\Users\jekabs.vidrusks\source\repos\light\light\BruteNGravitySim.cpp(31,37): warning C4244:         and
+C:\Users\jekabs.vidrusks\source\repos\light\light\BruteNGravitySim.cpp(31,37): warning C4244:         [
+C:\Users\jekabs.vidrusks\source\repos\light\light\BruteNGravitySim.cpp(31,37): warning C4244:             T=float
+C:\Users\jekabs.vidrusks\source\repos\light\light\BruteNGravitySim.cpp(31,37): warning C4244:         ]
+  Generating Code...
+  light.vcxproj -> C:\Users\jekabs.vidrusks\source\repos\light\x64\Debug\light.exe

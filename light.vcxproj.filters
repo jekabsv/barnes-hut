@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Barnes Hut">
+      <UniqueIdentifier>{6eaa40db-e258-4d54-b3e1-3378b43aefb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BruteNBodyGravitySim">
+      <UniqueIdentifier>{a4523f9c-ec63-4ece-ba36-5cc171123e58}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="inBoundary.cpp">
+      <Filter>Source Files\Barnes Hut</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomBarnesHut.cpp">
+      <Filter>Source Files\Barnes Hut</Filter>
+    </ClCompile>
+    <ClCompile Include="BarnesHutSearch.cpp">
+      <Filter>Source Files\Barnes Hut</Filter>
+    </ClCompile>
+    <ClCompile Include="BarnesHutInsert.cpp">
+      <Filter>Source Files\Barnes Hut</Filter>
+    </ClCompile>
+    <ClCompile Include="GQuad.cpp">
+      <Filter>Source Files\Barnes Hut</Filter>
+    </ClCompile>
+    <ClCompile Include="InitBarnesHut.cpp">
+      <Filter>Source Files\Barnes Hut</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadTree.cpp">
+      <Filter>Source Files\Barnes Hut</Filter>
+    </ClCompile>
+    <ClCompile Include="BruteNGravitySim.cpp">
+      <Filter>Source Files\BruteNBodyGravitySim</Filter>
+    </ClCompile>
+    <ClCompile Include="GotoPosBruteNBody.cpp">
+      <Filter>Source Files\BruteNBodyGravitySim</Filter>
+    </ClCompile>
+    <ClCompile Include="Update.cpp">
+      <Filter>Source Files\BruteNBodyGravitySim</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Init.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inf.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GQuad.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BruteNGravitySim.hpp">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
