@@ -6,5 +6,9 @@ int main()
 {
 	StartGQuad();
 	//StartBruteNGravitySim();
+	cout << "hello";
 	return 0;
 }
+
+
+//trgfdscs
