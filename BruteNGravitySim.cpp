@@ -1,14 +1,9 @@
-#include "Init.hpp"
 #include "BruteNGravitySim.hpp"
 
 
 
 int StartBruteNGravitySim()
 {
-	RenderWindow window(VideoMode(), "SuS", Style::Fullscreen);
-	window.setFramerateLimit(60);
-	int screen_width = window.getSize().x;
-	int screen_height = window.getSize().y;
 	vector <particle> p;
 	const int number = 1000;
 	particle add;

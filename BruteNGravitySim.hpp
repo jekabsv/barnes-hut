@@ -6,11 +6,13 @@ class particle
 {
 public:
 	float mass;
-	float x, y;
+	float x = 0, y = 0;
 	float vx = 0, vy = 0;
 	CircleShape shape;
 	particle()
 	{
+		x = 0;
+		y = 0;
 		vx = 0;
 		vy = 0;
 		mass = 1;
@@ -26,4 +28,3 @@ public:
 };
 
 int StartBruteNGravitySim();
-//int random(int low, int high);

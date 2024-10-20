@@ -1,9 +1,6 @@
 #include "Init.hpp"
 
 
-int random(int low, int high);
-
-
 
 struct Node {
 	Vector2f pos;
@@ -21,6 +18,8 @@ struct Node {
 	}
 	Node() { data = 0; }
 };
+
+
 
 
 class Quad {
@@ -70,4 +69,13 @@ public:
 };
 
 
+
+//extern 	CircleShape testcircle;
+extern int number;
+
 void StartGQuad();
+
+void InitGQuad();
+
+extern 	vector <Node> v;
+

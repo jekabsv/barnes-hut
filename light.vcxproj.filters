@@ -19,6 +19,12 @@
     <Filter Include="Source Files\BruteNBodyGravitySim">
       <UniqueIdentifier>{a4523f9c-ec63-4ece-ba36-5cc171123e58}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Menu">
+      <UniqueIdentifier>{3bab78d4-e39a-4218-981d-675c8b7a6387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Barnes Hut\Functions">
+      <UniqueIdentifier>{e7243a43-b9c7-4ea2-8c20-35d4effec22a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
@@ -26,18 +32,6 @@
     </ClCompile>
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="inBoundary.cpp">
-      <Filter>Source Files\Barnes Hut</Filter>
-    </ClCompile>
-    <ClCompile Include="RandomBarnesHut.cpp">
-      <Filter>Source Files\Barnes Hut</Filter>
-    </ClCompile>
-    <ClCompile Include="BarnesHutSearch.cpp">
-      <Filter>Source Files\Barnes Hut</Filter>
-    </ClCompile>
-    <ClCompile Include="BarnesHutInsert.cpp">
-      <Filter>Source Files\Barnes Hut</Filter>
     </ClCompile>
     <ClCompile Include="GQuad.cpp">
       <Filter>Source Files\Barnes Hut</Filter>
@@ -54,11 +48,26 @@
     <ClCompile Include="GotoPosBruteNBody.cpp">
       <Filter>Source Files\BruteNBodyGravitySim</Filter>
     </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Init.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="Update.cpp">
       <Filter>Source Files\BruteNBodyGravitySim</Filter>
     </ClCompile>
-    <ClCompile Include="Random.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="BarnesHutInsert.cpp">
+      <Filter>Source Files\Barnes Hut\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="BarnesHutSearch.cpp">
+      <Filter>Source Files\Barnes Hut\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="inBoundary.cpp">
+      <Filter>Source Files\Barnes Hut\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomBarnesHut.cpp">
+      <Filter>Source Files\Barnes Hut\Functions</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

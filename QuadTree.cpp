@@ -258,7 +258,8 @@ int StartQuadTree()
 
 		for (int i = 0; i < number; i++)
 		{
-			Particle a(Vector2f(random(0, screen_width), random(0, screen_height)), 10);
+			Particle a(Vector2f(random(0, 
+			_width), random(0, screen_height)), 10);
 			Particle* pt = &a;
 			p.push_back(a);
 			test.insert(pt);

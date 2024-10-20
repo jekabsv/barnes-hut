@@ -1,2 +1,12 @@
-﻿  Main.cpp
+﻿  InitBarnesHut.cpp
+C:\Users\jekabs.vidrusks\source\repos\light\light\InitBarnesHut.cpp(15,50): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\jekabs.vidrusks\source\repos\light\light\InitBarnesHut.cpp(15,50): warning C4244:         with
+C:\Users\jekabs.vidrusks\source\repos\light\light\InitBarnesHut.cpp(15,50): warning C4244:         [
+C:\Users\jekabs.vidrusks\source\repos\light\light\InitBarnesHut.cpp(15,50): warning C4244:             T=float
+C:\Users\jekabs.vidrusks\source\repos\light\light\InitBarnesHut.cpp(15,50): warning C4244:         ]
+C:\Users\jekabs.vidrusks\source\repos\light\light\InitBarnesHut.cpp(15,25): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\jekabs.vidrusks\source\repos\light\light\InitBarnesHut.cpp(15,25): warning C4244:         with
+C:\Users\jekabs.vidrusks\source\repos\light\light\InitBarnesHut.cpp(15,25): warning C4244:         [
+C:\Users\jekabs.vidrusks\source\repos\light\light\InitBarnesHut.cpp(15,25): warning C4244:             T=float
+C:\Users\jekabs.vidrusks\source\repos\light\light\InitBarnesHut.cpp(15,25): warning C4244:         ]
   light.vcxproj -> C:\Users\jekabs.vidrusks\source\repos\light\x64\Debug\light.exe
